@@ -125,7 +125,7 @@ body {
     color:var(--black-txt-cl);
 }
 .hero-btn {
-    font-family:var(--main-font);
+    font-family: inherit;;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -173,7 +173,7 @@ body {
     }
 .btn-item
     {
-    font-family:var(--main-font);
+    font-family: inherit;;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -204,9 +204,12 @@ body {
     letter-spacing: 0.03em;  
     color:var(--white-txt-cl);
     }
+address
+    {
+     font-style: normal;   
+    }
 .footer-item-link
     {
-    font-style: normal;
     font-size: 14px;
     letter-spacing: 0.03em;
     color:var(--white-txt-cl);
@@ -214,7 +217,7 @@ body {
 .post,
 .phone
     {
-        color:var(--white-txt-cl) 60%;   
+        color:rgba(255, 255, 255, 0.6);;   
     }
 .footer-item-link:hover,
 .footer-item-link:focus
