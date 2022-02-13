@@ -72,6 +72,10 @@ body {
    {
      color: var(--blu-cl);
    }
+.nav-list .nav-link.current
+   {
+    color: var(--blu-cl);
+   }
 .header-email,
 .header-tel 
    {
