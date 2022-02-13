@@ -20,6 +20,8 @@ font-family: 'Roboto', sans-serif; */
     --white-txt-cl:#FFFFFF;
     --black-txt-cl:#212121;
     --gray-txt-cl:#757575;
+    --blu-cl:#2196F3;
+    --bg-cl:#2F303A;
 }
 body {
     font-family:var(--main-font);
@@ -28,42 +30,97 @@ body {
     letter-spacing: 0.03em;
     color:var(--gray-txt-cl);
     }
+    .list {
+        list-style: none;
+      }
+      
+    .link {
+        text-decoration: none;
+    }
+.logo    
+   {
+    font-family:var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;  
+    letter-spacing: 0.03em;  
+    color:var(--blu-cl);
+   } 
+.heder-logo
+   {
+    font-family:var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;  
+    letter-spacing: 0.03em;  
+    color:var(--black-txt-cl);
+   }
+.nav-link 
+   {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em; 
+    color: #212121;
+   }
+.nav-link:hover,
+.nav-link:focus, 
+.header-email:hover,
+.header-email:focus,
+.header-tel:hover,
+.header-tel:focus
+   {
+     color: var(--blu-cl);
+   }
+.header-email,
+.header-tel 
+   {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em; 
+    color: #757575;   
+   }
 .hero-title {
-    font-family:var(--main-font);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-
-    color:var(--white-txt-cl);
-
-}
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color:var(--white-txt-cl);
+    }
+.hero 
+    {
+        background-color:var(--bg-cl);
+    }
 .benefits-title {
+    opacity: 0;
 
 }
+.benefits-item-title
+    {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--black-txt-cl);
+    }
+.benefits-item-text
+    {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    }
 .title {
-    font-family:var(--main-font);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-
     color:var(--black-txt-cl);
 }
 .hero-btn {
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-
-    font-family:var(--main-font);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -71,7 +128,80 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
     color:var(--white-txt-cl);
-
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    
 }
+.team-name
+    {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--black-txt-cl);
+    }
+.team-position
+    {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+
+.subtitle
+    {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--black-txt-cl);
+    }
+.works-text
+    {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    }
+.btn-item
+    {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+    }
+.footer 
+    {
+        background-color:var(--bg-cl);
+    }
+.footer-logo
+    {
+    font-family:var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;  
+    letter-spacing: 0.03em;  
+    color:var(--white-txt-cl);
+    }
+.footer-item-link
+    {
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color:var(--white-txt-cl);
+    }
+.post,
+.phone
+    {
+        color:var(--white-txt-cl) 60%;   
+    }
+
