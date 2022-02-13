@@ -121,6 +121,7 @@ body {
     color:var(--black-txt-cl);
 }
 .hero-btn {
+    font-family:var(--main-font);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -168,17 +169,24 @@ body {
     }
 .btn-item
     {
-    font-style: normal;
+    font-family:var(--main-font);
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
-
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-
-    color: #212121;
+    color:var(--black-txt-cl);
+    background-color:#F5F4FA;
+    border-radius: 4px;
+    cursor: pointer;
     }
+.btn-item:hover,
+.btn-item:focus {
+    color:var(--white-txt-cl);
+    background-color:var(--blu-cl);
+}
+      
+      
 .footer 
     {
         background-color:var(--bg-cl);
