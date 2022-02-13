@@ -14,7 +14,7 @@ font-family: 'Roboto', sans-serif; */
 #212121
 #757575
 #FFFFFF */
-:root {
+:root{
     --main-font:'Roboto', sans-serif;
     --secondary-font:'Raleway', sans-serif;
     --white-txt-cl:#FFFFFF;
@@ -22,7 +22,7 @@ font-family: 'Roboto', sans-serif; */
     --gray-txt-cl:#757575;
     --blu-cl:#2196F3;
     --bg-cl:#2F303A;
-}
+     }
 body {
     font-family:var(--main-font);
     font-size: 14px;
@@ -212,4 +212,9 @@ body {
     {
         color:var(--white-txt-cl) 60%;   
     }
+.footer-item-link:hover,
+.footer-item-link:focus
+   {
+     color: var(--blu-cl);
+   }
 
